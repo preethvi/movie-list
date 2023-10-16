@@ -1,5 +1,5 @@
-import React from "https://cdn.skypack.dev/react";
-import PropTypes from "https://cdn.skypack.dev/prop-types";
+import React from "react";
+import PropTypes from "prop-types";
 const Search = props => (
   <form className="search" onInput={event => props.onInput(event.target.value)}>
     <input type="search" value={props.query} placeholder={props.placeholder} />
