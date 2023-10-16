@@ -1,6 +1,6 @@
 
 body {
-  background-color: #1e2931;
+  background-color: #0f0f0f;
   color: #fff;
   font-family: Verdana, sans-serif;
   font-style: normal;
@@ -75,3 +75,8 @@ input {
   text-align: center;
   font-family: Sans-serif;
 }  
+@media and (max-width:375px){
+  .search{
+    font-size: 8px;
+  }
+}
